@@ -22,7 +22,6 @@ const Header = ({ siteTitle }) => (
           style={{
             color: `white`,
             textDecoration: `none`,
-            font-family: "Times New Roman", Times, serif;
           }}
         >
           {siteTitle}
