@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Becoming Machinic`,
-    description: `A simple calling card site for becomingmachinic.com`,
+    description: `becomingmachinic.com`,
     author: `Becoming Machinic Inc.`,
   },
   plugins: [
