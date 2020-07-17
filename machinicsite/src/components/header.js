@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Image from "../components/image"
+import Img from "../assets/logo.svg"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -17,7 +18,8 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <Image />
+    {console.log("here")}
+      <img src={Img} />
     </div>
   </header>
 )

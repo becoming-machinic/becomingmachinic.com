@@ -5,6 +5,14 @@ module.exports = {
     author: `Becoming Machinic Inc.`,
   },
   plugins: [
+   {
+    resolve: "gatsby-plugin-react-svg",
+    options: {
+      rule: {
+        include: '/src/assets',
+      }
+    },
+  },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

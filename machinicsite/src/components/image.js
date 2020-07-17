@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+//import Img from "gatsby-image"
+import Img from "../assets/logo.svg"
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -14,6 +15,10 @@ import Img from "gatsby-image"
  */
 
 const Image = () => {
+
+//Commented out since we're importing the svg image directly in header.js
+
+ /*
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "machinic.png" }) {
@@ -25,8 +30,9 @@ const Image = () => {
       }
     }
   `)
+  */
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return 
 }
 
 export default Image
